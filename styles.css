@@ -5,3 +5,39 @@
     font-weight: normal;
     font-style: normal;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.left-column {
+    font-family: 'norsebold';
+    color: white;
+    background-image: url(./resources/background.jpg);
+    background-size: cover;
+    width: 40vw;
+    position: relative;
+}
+
+.left-column img {
+    height: 150px;
+    width: 100px;
+}
+
+.left-column div {
+    position: relative;
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
