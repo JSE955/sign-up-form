@@ -32,7 +32,7 @@ body {
 
 .left-column div {
     position: relative;
-    top: 25vh;
+    top: 20vh;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
@@ -40,4 +40,22 @@ body {
     font-size: 100px;
 }
 
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    background-color: rgb(242, 245, 244);
+    flex-grow: 2;
+}
+
+.section-two {
+    flex-grow: 1;
+}
+
+.section-three {
+    background-color: rgb(242, 245, 244);
+    flex-grow: 2;
+}
 
