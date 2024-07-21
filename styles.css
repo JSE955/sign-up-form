@@ -12,7 +12,6 @@
 }
 
 body {
-    height: 100vh;
     display: flex;
 }
 
@@ -23,6 +22,7 @@ body {
     background-size: cover;
     width: 40vw;
     position: relative;
+    flex-grow: 1;
 }
 
 .left-column img {
@@ -40,22 +40,45 @@ body {
     font-size: 100px;
 }
 
-.right-column {
-    display: flex;
-    flex-direction: column;
-}
-
 .section-one {
     background-color: rgb(242, 245, 244);
-    flex-grow: 2;
+    padding-left: 40px;
+    padding-top: 150px;
+    box-sizing: border-box;
+    height: 35vh;
+}
+
+.section-one p {
+    width: 75%;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .section-two {
-    flex-grow: 1;
+    height: 30vh;
+    padding: 30px;
+}
+
+.section-two p {
+    margin-bottom: 20px;
 }
 
 .section-three {
     background-color: rgb(242, 245, 244);
-    flex-grow: 2;
+    height: 35vh;
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
